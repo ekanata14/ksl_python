@@ -16,16 +16,16 @@ rerata = float((matematika + informatika + biologi + kimia + fisika ) / 5)
 nilai, comment = str("") 
 
 # Condition to decide whether the student passed or not
-if(rerata < 70):
+if rerata < 70:
     nilai = "K"
     comment = "Tidak Lulus"
-elif(rerata >= 70 and rerata <= 75):
+elif rerata >= 70 and rerata <= 75:
     nilai = "C"
     comment = "Lulus Bersyarat"
-elif(rerata >= 76 and rerata <= 85):
+elif rerata >= 76 and rerata <= 85:
     nilai = "B"
     comment = "Lulus"
-elif(rerata >= 85):
+elif rerata >= 85:
     nilai = "A"
     comment = "Lulus"
 else:
